@@ -1,0 +1,28 @@
+Để đóng màn hình ban đầu sau khi người dùng nhấn nút "Log in" và chỉ hiển thị một cửa sổ mới, bạn có thể sử dụng các hàm withdraw() và deiconify() của cửa sổ gốc (a) để điều khiển việc ẩn và hiển thị cửa sổ.
+Đăng nhập ban đầu:
+def login():
+    # Lấy giá trị nhập vào từ người dùng
+    username = entry1.get()
+    password = entry2.get()
+
+    # Kiểm tra xem thông tin đăng nhập có đúng hay không
+    if username == ACCOUNT and password == PASSWORD:
+        # Nếu đúng, đóng cửa sổ hiện tại và mở cửa sổ mới
+        a.destroy()
+        new_window = tk.Toplevel()
+        new_window.title("New Window")
+        new_window.geometry("600x600")
+
+        # # Yêu cầu xác nhận
+        # result = messagebox.askyesno("Xác nhận", "Bạn có muốn tiếp tục không?")
+        # if result:
+        #     print("Người dùng đã chọn Yes.")
+        # else:
+        #     print("Người dùng đã chọn No.")
+   
+        messagebox.showinfo("Thông báo", "Chào mừng bạn đến với ứng dụng!")
+        new_window.mainloop()
+    else:
+        # Nếu sai, hiển thị thông báo lỗi
+        messagebox.showinfo("Cảnh báo", "Thông tin tài khoản hoặc mật khẩu không chính xác.")
+        error_label.config(text="Tài khoản hoặc mật khẩu không chính xác")
