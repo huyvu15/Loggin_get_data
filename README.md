@@ -41,3 +41,16 @@ Một số lỗi phát sinh:
 - Khi chạy chương trình phân biệt vùng nhớ nên các bạn phải sửa lại đường dẫn đến các file do số lượng tư liệu khá nhiều nên bạn có thể dùng tool sau:
 
 > [ấn vô đây để lấy tool nè!](https://github.com/huyvu15/loggin_get_data/blob/main/enter_path.py)
+
+- Chương trình đã comment rất rõ các chức năng của từng dòng -> dễ đọc, sửa đổi
+
+## Tài liệu tham khảo:
+
+- Tkinter-By-Example.pdf
+- Python GUI Programming Cookbook - Second Edition.pdf
+- 1000-examples-programming-in-python.pdf
+- Coding Projects in Python ( PDFDrive ).pdf
+- Modern-tkinter-for-busy-python-developers-quickly-learn-to-create-great-looking-user-interfaces
+- Gui-programming-using-python-tkinter
+
+## AI
