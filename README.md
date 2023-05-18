@@ -21,6 +21,10 @@ Khi bạn đăng nhập vào ứng dụng của chúng tôi, cánh cửa đến 
 
 Hãy để ứng dụng của chúng tôi trở thành nguồn cảm hứng hàng ngày, mở ra những cánh cửa mới và cho phép tâm trí bạn khai sáng. Bắt đầu ngay bây giờ và khám phá vô hạn tiềm năng trong tư liệu của chúng tôi.
 
+Download the my program:
+
+> git clone https://github.com/huyvu15/Loggin_get_data.git
+
 ## Hướng dẫn chạy chương trình
 Cài đặt các thư viện Tikinter, PIL,...
 
@@ -40,7 +44,7 @@ Một số lỗi phát sinh:
 
 - Khi chạy chương trình phân biệt vùng nhớ nên các bạn phải sửa lại đường dẫn đến các file do số lượng tư liệu khá nhiều nên bạn có thể dùng tool sau:
 
-> [ấn vô đây để lấy tool nè!](https://github.com/huyvu15/loggin_get_data/blob/main/enter_path.py)
+> [Ấn vô đây để lấy tool nè!](https://github.com/huyvu15/loggin_get_data/blob/main/enter_path.py)
 
 - Chương trình đã comment rất rõ các chức năng của từng dòng -> dễ đọc, sửa đổi
 
@@ -54,3 +58,5 @@ Một số lỗi phát sinh:
 - Gui-programming-using-python-tkinter
 
 ## AI
+
+## Give me a star
