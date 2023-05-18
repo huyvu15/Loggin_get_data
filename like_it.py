@@ -152,7 +152,4 @@ b = tk.Label(a, text="Đăng nhập vào thì biết nha!, hahaaa :))", font=("A
 b.place(x=640, y=230)
 
 
-
-
-
 a.mainloop()
